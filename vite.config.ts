@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Site-Novo/', // <-- NOME DO SEU REPOSITÓRIO ADICIONADO AQUI
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
